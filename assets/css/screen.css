@@ -3331,3 +3331,20 @@ body[class*=" gh-font-heading"]:not(.gh-font-heading-fira-sans):not(.gh-font-hea
 .pswp--minimal--dark .pswp__top-bar {
     background: none;
 }
+
+/* robot sea monster games */
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust spacing as needed */
+    align-items: center;
+    max-width: 720px;
+}
+
+.section-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional styling */
+    display: block;
+}
